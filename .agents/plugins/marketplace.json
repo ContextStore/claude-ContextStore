@@ -1,0 +1,22 @@
+{
+  "name": "contextstore",
+  "interface": {
+    "displayName": "ContextStore"
+  },
+  "plugins": [
+    {
+      "name": "contextstore",
+      "source": {
+        "source": "git-subdir",
+        "url": "ContextStore/claude-ContextStore",
+        "path": "./plugins/contextstore",
+        "ref": "main"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

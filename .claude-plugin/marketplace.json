@@ -1,0 +1,15 @@
+{
+  "name": "contextstore",
+  "description": "Official ContextStore agent plugins.",
+  "owner": {
+    "name": "ContextStore",
+    "url": "https://contextstore.oritm.tech"
+  },
+  "plugins": [
+    {
+      "name": "contextstore",
+      "source": "./plugins/contextstore",
+      "description": "Governed personal and team memory for Claude Code."
+    }
+  ]
+}

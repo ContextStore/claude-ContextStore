@@ -1,0 +1,9 @@
+{
+  "name": "contextstore",
+  "description": "Governed ContextStore memory for Claude Code sessions.",
+  "version": "0.1.0",
+  "author": {
+    "name": "ContextStore",
+    "url": "https://contextstore.oritm.tech"
+  }
+}

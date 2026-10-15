@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "contextstore",
+  "version": "0.1.0",
+  "description": "Bring governed ContextStore personal and team memory into your coding sessions.",
+  "author": {
+    "name": "ContextStore",
+    "url": "https://contextstore.oritm.tech"
+  },
+  "repository": "https://github.com/ContextStore/claude-ContextStore",
+  "extensions": {
+    "com.openai": {
+      "onboardingSkill": "./skills/setup/SKILL.md",
+      "interface": {
+        "displayName": "ContextStore",
+        "shortDescription": "Governed memory for coding agents",
+        "longDescription": "Recall project context across sessions and save durable decisions to your personal or authorized team memory.",
+        "developerName": "ContextStore",
+        "category": "Productivity",
+        "websiteURL": "https://contextstore.oritm.tech"
+      }
+    }
+  }
+}

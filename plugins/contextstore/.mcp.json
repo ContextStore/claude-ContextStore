@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "contextstore": {
+      "type": "http",
+      "url": "https://contextstore.oritm.tech/mcp"
+    }
+  }
+}
